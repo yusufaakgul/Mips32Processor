@@ -1,0 +1,28 @@
+module alu1 (A,B,S,Ci,Co,O);
+
+input A,B,Ci;
+input [2:0] S;
+output Co,O;
+
+
+
+wire andw,orw,xorw,addw,subw,bnot;
+wire m11,m12,m21;
+
+and and_1(andw,A,B);
+or or_1(orw,A,B);
+xor xor_1(xorw,A,B);
+
+add1 add_1(A,B,Ci,addw,Co);
+not not_1(bnot,B);
+add1 sub_1(A,bnot,1,subw,Co);
+
+
+mux1 mux_1 (subw,addw,S[0],m11);
+mux1 mux_2 (orw,andw,S[1],m12);
+mux1 mux_3 (m11,m12,S[2],m21);
+mux1 mux_4 (xorw,m21,S[3],O);
+
+
+endmodule
+

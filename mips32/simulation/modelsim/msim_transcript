@@ -1,0 +1,740 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do org4_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/mux1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/add1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add1
+# 
+# Top level modules:
+# 	add1
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/alu1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu1
+# 
+# Top level modules:
+# 	alu1
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/alu32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu32
+# 
+# Top level modules:
+# 	alu32
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/comparator32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32
+# 
+# Top level modules:
+# 	comparator32
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/comparator1.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator1
+# 
+# Top level modules:
+# 	comparator1
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/sign_extender.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/comparator_out_select.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator_out_select
+# 
+# Top level modules:
+# 	comparator_out_select
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/mux32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux32
+# 
+# Top level modules:
+# 	mux32
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/shift_left2.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_left2
+# 
+# Top level modules:
+# 	shift_left2
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/address_jump.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module address_jump
+# 
+# Top level modules:
+# 	address_jump
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/zeroright16.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zeroright16
+# 
+# Top level modules:
+# 	zeroright16
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/comparator32_sign.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32_sign
+# 
+# Top level modules:
+# 	comparator32_sign
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/alu_control.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/main_control_unit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module main_control_unit
+# 
+# Top level modules:
+# 	main_control_unit
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/mips_registers.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips_registers
+# 
+# Top level modules:
+# 	mips_registers
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/data_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/instruction_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/adder32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder32
+# 
+# Top level modules:
+# 	adder32
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/mips32.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips32
+# 
+# Top level modules:
+# 	mips32
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/nextPC.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nextPC
+# 
+# Top level modules:
+# 	nextPC
+# vlog -vlog01compat -work work +incdir+C:/Users/whyno/Desktop/org4 {C:/Users/whyno/Desktop/org4/mux5.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux5
+# 
+# Top level modules:
+# 	mux5
+# 
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/add1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add1
+# 
+# Top level modules:
+# 	add1
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/add1_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module add1_testbench
+# 
+# Top level modules:
+# 	add1_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/adder32.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder32
+# 
+# Top level modules:
+# 	adder32
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/adder32_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module adder32_testbench
+# 
+# Top level modules:
+# 	adder32_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/address_jump.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module address_jump
+# 
+# Top level modules:
+# 	address_jump
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/address_jump_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module address_jump_testbench
+# 
+# Top level modules:
+# 	address_jump_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu_control.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu_control_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu_control_testbench
+# 
+# Top level modules:
+# 	alu_control_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu1
+# 
+# Top level modules:
+# 	alu1
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu1_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu1_testbench
+# 
+# Top level modules:
+# 	alu1_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu32.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu32
+# 
+# Top level modules:
+# 	alu32
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/alu32_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu32_testbench
+# 
+# Top level modules:
+# 	alu32_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator_out_select.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator_out_select
+# 
+# Top level modules:
+# 	comparator_out_select
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator_out_select_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator_out_select_testbench
+# 
+# Top level modules:
+# 	comparator_out_select_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator1
+# 
+# Top level modules:
+# 	comparator1
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator32.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32
+# 
+# Top level modules:
+# 	comparator32
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator32_sign.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32_sign
+# 
+# Top level modules:
+# 	comparator32_sign
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator32_sign_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32_sign_testbench
+# 
+# Top level modules:
+# 	comparator32_sign_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/comparator32_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparator32_testbench
+# 
+# Top level modules:
+# 	comparator32_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/instruction_memory.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module instruction_memory
+# 
+# Top level modules:
+# 	instruction_memory
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/main_control_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module main_control_testbench
+# 
+# Top level modules:
+# 	main_control_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/main_control_unit.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module main_control_unit
+# 
+# Top level modules:
+# 	main_control_unit
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mips_registers.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips_registers
+# 
+# Top level modules:
+# 	mips_registers
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mips32.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips32
+# 
+# Top level modules:
+# 	mips32
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mips32_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mips32_testbench
+# 
+# Top level modules:
+# 	mips32_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mux1.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux1
+# 
+# Top level modules:
+# 	mux1
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mux1_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux1_testbench
+# 
+# Top level modules:
+# 	mux1_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mux5.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux5
+# 
+# Top level modules:
+# 	mux5
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mux32.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux32
+# 
+# Top level modules:
+# 	mux32
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/mux32_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux32_testbench
+# 
+# Top level modules:
+# 	mux32_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/nextPC.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module nextPC
+# 
+# Top level modules:
+# 	nextPC
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/shift_left2.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_left2
+# 
+# Top level modules:
+# 	shift_left2
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/shift_left2_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shift_left2_testbench
+# 
+# Top level modules:
+# 	shift_left2_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/sign_extender.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sign_extender
+# 
+# Top level modules:
+# 	sign_extender
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/sign_extender_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module sign_extender_testbench
+# 
+# Top level modules:
+# 	sign_extender_testbench
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/zeroright16.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zeroright16
+# 
+# Top level modules:
+# 	zeroright16
+vlog -reportprogress 300 -work work C:/Users/whyno/Desktop/org4/zeroright16_testbench.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module zeroright16_testbench
+# 
+# Top level modules:
+# 	zeroright16_testbench
+vsim work.mips32_testbench
+# vsim work.mips32_testbench 
+# Loading work.mips32_testbench
+# Loading work.mips32
+# Loading work.instruction_memory
+# Loading work.main_control_unit
+# Loading work.alu_control
+# Loading work.zeroright16
+# Loading work.mux5
+# Loading work.mux1
+# Loading work.adder32
+# Loading work.add1
+# Loading work.mux32
+# Loading work.comparator32_sign
+# Loading work.comparator32
+# Loading work.comparator1
+# Loading work.comparator_out_select
+# Loading work.mips_registers
+# Loading work.sign_extender
+# Loading work.alu32
+# Loading work.alu1
+# Loading work.data_memory
+# Loading work.shift_left2
+# Loading work.address_jump
+# Loading work.nextPC
+run
+#  Instruction = 00110101000010000000000000000101 
+#  opcode = 001101 
+#  rs = 01000 
+#  rt = 01000 rd = 00000 
+#  shampt = 00000 
+#  funct= 000101 
+#  Immediate = 0000000000000101 
+# 
+# program counter 00000000000000000000000000000000
+# ----------------------------------
+run
+#  Instruction = 00110101001010010000000000001111 
+#  opcode = 001101 
+#  rs = 01001 
+#  rt = 01001 rd = 00000 
+#  shampt = 00000 
+#  funct= 001111 
+#  Immediate = 0000000000001111 
+# 
+# program counter 00000000000000000000000000000001
+# ----------------------------------
+run
+#  Instruction = 00110101010010100000000000001000 
+#  opcode = 001101 
+#  rs = 01010 
+#  rt = 01010 rd = 00000 
+#  shampt = 00000 
+#  funct= 001000 
+#  Immediate = 0000000000001000 
+# 
+# program counter 00000000000000000000000000000010
+# ----------------------------------
+run
+#  Instruction = 00110101011010110000000000000010 
+#  opcode = 001101 
+#  rs = 01011 
+#  rt = 01011 rd = 00000 
+#  shampt = 00000 
+#  funct= 000010 
+#  Immediate = 0000000000000010 
+# 
+# program counter 00000000000000000000000000000011
+# ----------------------------------
+run
+#  Instruction = 00110101100011000000000000000011 
+#  opcode = 001101 
+#  rs = 01100 
+#  rt = 01100 rd = 00000 
+#  shampt = 00000 
+#  funct= 000011 
+#  Immediate = 0000000000000011 
+# 
+# program counter 00000000000000000000000000000100
+# ----------------------------------
+run
+#  Instruction = 00110101101011010000000000001010 
+#  opcode = 001101 
+#  rs = 01101 
+#  rt = 01101 rd = 00000 
+#  shampt = 00000 
+#  funct= 001010 
+#  Immediate = 0000000000001010 
+# 
+# program counter 00000000000000000000000000000101
+# ----------------------------------
+run
+#  Instruction = 00000001101011000111000000100000 
+#  opcode = 000000 
+#  rs = 01101 
+#  rt = 01100 rd = 01110 
+#  shampt = 00000 
+#  funct= 100000 
+#  Immediate = 0111000000100000 
+# 
+# program counter 00000000000000000000000000000110
+# ----------------------------------
+run
+#  Instruction = 00000001010010110111100000100000 
+#  opcode = 000000 
+#  rs = 01010 
+#  rt = 01011 rd = 01111 
+#  shampt = 00000 
+#  funct= 100000 
+#  Immediate = 0111100000100000 
+# 
+# program counter 00000000000000000000000000000111
+# ----------------------------------
+run
+#  Instruction = 00000001111011101000000000100010 
+#  opcode = 000000 
+#  rs = 01111 
+#  rt = 01110 rd = 10000 
+#  shampt = 00000 
+#  funct= 100010 
+#  Immediate = 1000000000100010 
+# 
+# program counter 00000000000000000000000000001000
+# ----------------------------------
+run
+#  Instruction = 00000001000010011000100000100010 
+#  opcode = 000000 
+#  rs = 01000 
+#  rt = 01001 rd = 10001 
+#  shampt = 00000 
+#  funct= 100010 
+#  Immediate = 1000100000100010 
+# 
+# program counter 00000000000000000000000000001001
+# ----------------------------------
+run
+#  Instruction = 00000000111010000011000000100110 
+#  opcode = 000000 
+#  rs = 00111 
+#  rt = 01000 rd = 00110 
+#  shampt = 00000 
+#  funct= 100110 
+#  Immediate = 0011000000100110 
+# 
+# program counter 00000000000000000000000000001010
+# ----------------------------------
+run
+#  Instruction = 00000000110001110010100000100110 
+#  opcode = 000000 
+#  rs = 00110 
+#  rt = 00111 rd = 00101 
+#  shampt = 00000 
+#  funct= 100110 
+#  Immediate = 0010100000100110 
+# 
+# program counter 00000000000000000000000000001011
+# ----------------------------------
+run
+#  Instruction = 00000001000010010010000000100100 
+#  opcode = 000000 
+#  rs = 01000 
+#  rt = 01001 rd = 00100 
+#  shampt = 00000 
+#  funct= 100100 
+#  Immediate = 0010000000100100 
+# 
+# program counter 00000000000000000000000000001100
+# ----------------------------------
+run
+#  Instruction = 00000000111010100001100000100100 
+#  opcode = 000000 
+#  rs = 00111 
+#  rt = 01010 rd = 00011 
+#  shampt = 00000 
+#  funct= 100100 
+#  Immediate = 0001100000100100 
+# 
+# program counter 00000000000000000000000000001101
+# ----------------------------------
+run
+#  Instruction = 00000000111001100001000000100101 
+#  opcode = 000000 
+#  rs = 00111 
+#  rt = 00110 rd = 00010 
+#  shampt = 00000 
+#  funct= 100101 
+#  Immediate = 0001000000100101 
+# 
+# program counter 00000000000000000000000000001110
+# ----------------------------------
+run
+#  Instruction = 00000001001010100011000000100101 
+#  opcode = 000000 
+#  rs = 01001 
+#  rt = 01010 rd = 00110 
+#  shampt = 00000 
+#  funct= 100101 
+#  Immediate = 0011000000100101 
+# 
+# program counter 00000000000000000000000000001111
+# ----------------------------------
+run
+#  Instruction = 00111100000001110000000011111111 
+#  opcode = 001111 
+#  rs = 00000 
+#  rt = 00111 rd = 00000 
+#  shampt = 00011 
+#  funct= 111111 
+#  Immediate = 0000000011111111 
+# 
+# program counter 00000000000000000000000000010000
+# ----------------------------------
+run
+#  Instruction = 00111100000001100000000111111111 
+#  opcode = 001111 
+#  rs = 00000 
+#  rt = 00110 rd = 00000 
+#  shampt = 00111 
+#  funct= 111111 
+#  Immediate = 0000000111111111 
+# 
+# program counter 00000000000000000000000000010001
+# ----------------------------------
+run
+#  Instruction = 10101110000001110000000000000000 
+#  opcode = 101011 
+#  rs = 10000 
+#  rt = 00111 rd = 00000 
+#  shampt = 00000 
+#  funct= 000000 
+#  Immediate = 0000000000000000 
+# 
+# program counter 00000000000000000000000000010010
+# ----------------------------------
+run
+#  Instruction = 10101110000001100000000000000001 
+#  opcode = 101011 
+#  rs = 10000 
+#  rt = 00110 rd = 00000 
+#  shampt = 00000 
+#  funct= 000001 
+#  Immediate = 0000000000000001 
+# 
+# program counter 00000000000000000000000000010011
+# ----------------------------------
+run
+#  Instruction = 10001110000100100000000000000000 
+#  opcode = 100011 
+#  rs = 10000 
+#  rt = 10010 rd = 00000 
+#  shampt = 00000 
+#  funct= 000000 
+#  Immediate = 0000000000000000 
+# 
+# program counter 00000000000000000000000000010100
+# ----------------------------------
+run
+#  Instruction = 10001110000100110000000000000001 
+#  opcode = 100011 
+#  rs = 10000 
+#  rt = 10011 rd = 00000 
+#  shampt = 00000 
+#  funct= 000001 
+#  Immediate = 0000000000000001 
+# 
+# program counter 00000000000000000000000000010101
+# ----------------------------------
+run
+#  Instruction = 00001000000000000000000000011000 
+#  opcode = 000010 
+#  rs = 00000 
+#  rt = 00000 rd = 00000 
+#  shampt = 00000 
+#  funct= 011000 
+#  Immediate = 0000000000011000 
+# 
+# program counter 00000000000000000000000000010110
+# ----------------------------------
+run
+#  Instruction = 00111100000011110000000000101000 
+#  opcode = 001111 
+#  rs = 00000 
+#  rt = 01111 rd = 00000 
+#  shampt = 00000 
+#  funct= 101000 
+#  Immediate = 0000000000101000 
+# 
+# program counter 00000000000000000000000000011000
+# ----------------------------------
+run
+#  Instruction = 00001100000000000000000111111111 
+#  opcode = 000011 
+#  rs = 00000 
+#  rt = 00000 rd = 00000 
+#  shampt = 00111 
+#  funct= 111111 
+#  Immediate = 0000000111111111 
+# 
+# program counter 00000000000000000000000000011001
+# ----------------------------------
+run
+#  Instruction = 00000011111000000000000000001000 
+#  opcode = 000000 
+#  rs = 11111 
+#  rt = 00000 rd = 00000 
+#  shampt = 00000 
+#  funct= 001000 
+#  Immediate = 0000000000001000 
+# 
+# program counter 00000000000000000000000111111111
+# ----------------------------------
+run
+#  Instruction = 00010000000000010000000000000010 
+#  opcode = 000100 
+#  rs = 00000 
+#  rt = 00001 rd = 00000 
+#  shampt = 00000 
+#  funct= 000010 
+#  Immediate = 0000000000000010 
+# 
+# program counter 00000000000000000000000000011010
+# ----------------------------------
+run
+#  Instruction = 00010100010000010000000000111111 
+#  opcode = 000101 
+#  rs = 00010 
+#  rt = 00001 rd = 00000 
+#  shampt = 00000 
+#  funct= 111111 
+#  Immediate = 0000000000111111 
+# 
+# program counter 00000000000000000000000000011101
+# ----------------------------------
+run
+#  Instruction = 00000000000000000000000000000000 
+#  opcode = 000000 
+#  rs = 00000 
+#  rt = 00000 rd = 00000 
+#  shampt = 00000 
+#  funct= 000000 
+#  Immediate = 0000000000000000 
+# 
+# program counter 00000000000000000000000001011101
+# ----------------------------------
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

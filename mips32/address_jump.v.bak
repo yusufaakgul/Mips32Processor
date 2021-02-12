@@ -1,0 +1,39 @@
+module address_jump(PC,INST,O);
+
+input [31:0] PC,INST;
+output [31:0] O;
+
+buf buf_1(O[31],PC[31]),
+	 buf_2(O[30],PC[30]),
+	 buf_3(O[29],PC[29]),
+	 buf_4(O[28],PC[28]),	 
+	 buf_5(O[27],INS[25]),
+	 buf_6(O[26],INS[24]),
+	 buf_7(O[25],INS[23]),
+	 buf_8(O[24],INS[22]),
+	 buf_9(O[23],INS[21]),
+	 buf_10(O[22],INS[20]),
+	 buf_11(O[21],INS[19]),
+	 buf_12(O[20],INS[18]),
+	 buf_13(O[19],INS[17]),
+	 buf_14(O[18],INS[16]),
+	 buf_15(O[17],INS[15]),
+	 buf_16(O[16],INS[14]),
+	 buf_17(O[15],INS[13]),
+	 buf_18(O[14],INS[12]),
+	 buf_19(O[13],INS[11]),
+	 buf_20(O[12],INS[10]),
+	 buf_21(O[11],INS[9]),
+	 buf_22(O[10],INS[8]),
+	 buf_23(O[9],INS[7]),
+	 buf_24(O[8],INS[6]),
+	 buf_25(O[7],INS[5]),
+	 buf_26(O[6],INS[4]),
+	 buf_27(O[5],INS[3]),
+	 buf_28(O[4],INS[2]),
+	 buf_29(O[3],INS[1]),
+	 buf_30(O[2],INS[0]),	 
+	 buf_31(O[1],1'b0),
+	 buf_32(O[0],1'b0);
+
+endmodule

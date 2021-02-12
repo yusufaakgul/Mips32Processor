@@ -1,0 +1,29 @@
+`define DELAY 20
+module alu_control_testbench(); 
+reg [5:0] ff;
+reg [1:0] op;
+wire [2:0] o;
+
+alu_control test (op, ff, o);
+
+
+
+initial begin
+
+a = 32'd20; b = -32'd30;
+#`DELAY;
+a = 32'd40; b = 32'd15;
+#`DELAY;
+a = 32'd15; b = 32'd16;
+#`DELAY;
+a = 32'd44; b = 32'd44;
+
+end
+ 
+ 
+initial
+begin
+$monitor("time = %2d, a =%d, b=%d, gt=%1b, eq=%1b, lt=%1b", $time, a, b, gt, eq, lt);
+end
+ 
+endmodule

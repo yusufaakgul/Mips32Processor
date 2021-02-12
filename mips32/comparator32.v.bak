@@ -1,0 +1,10 @@
+module comparator32 (A,B,Gt,Eq,Lt);
+
+input [31:0] A,B;
+output Gt,Eq,Lt;
+
+
+
+
+
+endmodule

@@ -1,0 +1,19 @@
+module bit_extend(A,O);
+
+
+input A [15:0];
+output O [31:0];
+
+wire sign;
+
+and and_1 (sign,A[15],A[15]);
+
+ 
+
+
+O[31]=sign;
+
+
+
+
+endmodule

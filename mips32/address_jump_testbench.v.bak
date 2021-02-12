@@ -1,0 +1,25 @@
+`define DELAY 20
+module address_jump_testbench();
+
+
+reg [31:0] pc,inst;
+wire [31:0] o;
+
+
+address_jump test (pc,inst,o);
+
+initial begin
+gt = 1'b1; eq = 1'b0;  lt = 1'b0;
+#`DELAY;
+gt = 1'b0; eq = 1'b0;  lt = 1'b1;
+#`DELAY;
+gt = 1'b0; eq = 1'b1;  lt = 1'b0;
+end
+ 
+ 
+initial
+begin
+$monitor("time = %2d, gt =%1b, eq=%1b, lt=%1b, OUT=%d", $time, gt, eq, lt, o);
+end
+ 
+endmodule

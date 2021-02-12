@@ -1,0 +1,57 @@
+Quartus II Archive log --	C:/Users/whyno/Desktop/org4/171044007.qarlog
+
+Archive:	C:/Users/whyno/Desktop/org4/171044007.qar
+Date:		Wed Jan 20 23:52:57 2021
+Quartus II 64-Bit		13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/whyno/Desktop/org4/add1.v
+C:/Users/whyno/Desktop/org4/add1_testbench.v
+C:/Users/whyno/Desktop/org4/adder32.v
+C:/Users/whyno/Desktop/org4/adder32_testbench.v
+C:/Users/whyno/Desktop/org4/address_jump.v
+C:/Users/whyno/Desktop/org4/address_jump_testbench.v
+C:/Users/whyno/Desktop/org4/alu1.v
+C:/Users/whyno/Desktop/org4/alu1_testbench.v
+C:/Users/whyno/Desktop/org4/alu32.v
+C:/Users/whyno/Desktop/org4/alu32_testbench.v
+C:/Users/whyno/Desktop/org4/alu_control.v
+C:/Users/whyno/Desktop/org4/alu_control_testbench.v
+C:/Users/whyno/Desktop/org4/comparator1.v
+C:/Users/whyno/Desktop/org4/comparator32.v
+C:/Users/whyno/Desktop/org4/comparator32_sign.v
+C:/Users/whyno/Desktop/org4/comparator32_sign_testbench.v
+C:/Users/whyno/Desktop/org4/comparator32_testbench.v
+C:/Users/whyno/Desktop/org4/comparator_out_select.v
+C:/Users/whyno/Desktop/org4/comparator_out_select_testbench.v
+C:/Users/whyno/Desktop/org4/data.txt
+C:/Users/whyno/Desktop/org4/data_memory.v
+C:/Users/whyno/Desktop/org4/db/org4.db_info
+C:/Users/whyno/Desktop/org4/incremental_db/compiled_partitions/org4.db_info
+C:/Users/whyno/Desktop/org4/instruction_memory.v
+C:/Users/whyno/Desktop/org4/instructions.txt
+C:/Users/whyno/Desktop/org4/main_control_testbench.v
+C:/Users/whyno/Desktop/org4/main_control_unit.v
+C:/Users/whyno/Desktop/org4/mips32.v
+C:/Users/whyno/Desktop/org4/mips32_testbench.v
+C:/Users/whyno/Desktop/org4/mips_registers.v
+C:/Users/whyno/Desktop/org4/mux1.v
+C:/Users/whyno/Desktop/org4/mux1_testbench.v
+C:/Users/whyno/Desktop/org4/mux32.v
+C:/Users/whyno/Desktop/org4/mux32_testbench.v
+C:/Users/whyno/Desktop/org4/mux5.v
+C:/Users/whyno/Desktop/org4/nextPC.v
+C:/Users/whyno/Desktop/org4/org4.qpf
+C:/Users/whyno/Desktop/org4/org4.qsf
+C:/Users/whyno/Desktop/org4/registers.txt
+C:/Users/whyno/Desktop/org4/shift_left2.v
+C:/Users/whyno/Desktop/org4/shift_left2_testbench.v
+C:/Users/whyno/Desktop/org4/sign_extender.v
+C:/Users/whyno/Desktop/org4/sign_extender_testbench.v
+C:/Users/whyno/Desktop/org4/zeroright16.v
+C:/Users/whyno/Desktop/org4/zeroright16_testbench.v
+c:/altera/13.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 46 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

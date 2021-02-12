@@ -1,0 +1,118 @@
+Archive Project report for org4
+Wed Jan 20 23:52:57 2021
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Jan 20 23:52:57 2021 ;
+; Revision Name          ; org4                                  ;
+; Top-level Entity Name  ; mips32                                ;
+; Family                 ; Cyclone III                           ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/whyno/Desktop/org4/171044007.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'org4.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/13.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4471 megabytes
+    Info: Processing ended: Wed Jan 20 23:52:57 2021
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; add1.v                                               ;
+; add1_testbench.v                                     ;
+; adder32.v                                            ;
+; adder32_testbench.v                                  ;
+; address_jump.v                                       ;
+; address_jump_testbench.v                             ;
+; alu1.v                                               ;
+; alu1_testbench.v                                     ;
+; alu32.v                                              ;
+; alu32_testbench.v                                    ;
+; alu_control.v                                        ;
+; alu_control_testbench.v                              ;
+; c:/altera/13.1/quartus/bin64/assignment_defaults.qdf ;
+; comparator1.v                                        ;
+; comparator32.v                                       ;
+; comparator32_sign.v                                  ;
+; comparator32_sign_testbench.v                        ;
+; comparator32_testbench.v                             ;
+; comparator_out_select.v                              ;
+; comparator_out_select_testbench.v                    ;
+; data.txt                                             ;
+; data_memory.v                                        ;
+; db/org4.db_info                                      ;
+; incremental_db/compiled_partitions/org4.db_info      ;
+; instruction_memory.v                                 ;
+; instructions.txt                                     ;
+; main_control_testbench.v                             ;
+; main_control_unit.v                                  ;
+; mips32.v                                             ;
+; mips32_testbench.v                                   ;
+; mips_registers.v                                     ;
+; mux1.v                                               ;
+; mux1_testbench.v                                     ;
+; mux5.v                                               ;
+; mux32.v                                              ;
+; mux32_testbench.v                                    ;
+; nextPC.v                                             ;
+; org4.qpf                                             ;
+; org4.qsf                                             ;
+; registers.txt                                        ;
+; shift_left2.v                                        ;
+; shift_left2_testbench.v                              ;
+; sign_extender.v                                      ;
+; sign_extender_testbench.v                            ;
+; zeroright16.v                                        ;
+; zeroright16_testbench.v                              ;
++------------------------------------------------------+
+
+
